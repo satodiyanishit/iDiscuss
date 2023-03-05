@@ -15,7 +15,7 @@
   <body>
     <?php include 'partials/_header.php'; ?> 
 
-
+    <p>Hello this is an about page of idiscuss</p>
 
     <?php include 'partials/_footer.php'; ?> 
 
