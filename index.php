@@ -20,24 +20,7 @@
 
     
 
-    .carousel-indicators [data-bs-target] {
-        position: relative;
-        width: 100px;
-        height: 6px;
-        border: none;
-        border-radius: 24px;
-    }
-
-    .carousel-indicators [data-bs-target] span {
-        content: ’’;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 0;
-        height: 100%;
-        background: white;
-        border-radius: inherit;
-    }
+    
         
     .card {
     border-radius: 9px;
