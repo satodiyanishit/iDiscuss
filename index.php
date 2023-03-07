@@ -18,9 +18,7 @@
         height: 500px;
     }
 
-    
 
-    
         
     .card {
     border-radius: 9px;
