@@ -64,8 +64,15 @@ if(isset($_GET['signupsuccess']) && $_GET['signupsuccess'] == "true"){
 </div>';
 }
 
-// signup failed
 
+// signup failed
+if (isset($_GET['signupsuccess'])&& $_GET['signupsuccess'] == "false" ) {
+  echo "<div class='alert alert-danger alert-dismissible fade show my-0' role='alert'>
+  <strong>Failed!</strong> $_GET[error]
+  <button type='button' class='close' data-dismiss='alert' aria-label='Close'></button>
+  <span aria-hidden='true'>&times</span>
+</div>";
+}
 
 // login success
 if (isset($_GET['loginsuccess'])&& $_GET['loginsuccess'] == "true" ) {
@@ -84,6 +91,15 @@ if (isset($_GET['loginsuccess'])&& $_GET['loginsuccess'] == "false" ) {
     <button type='button' class='close' data-dismiss='alert' aria-label='Close'></button>
     <span aria-hidden='true'>&times</span>
   </div>";
+}
+
+//logout success
+if (isset($_GET['logoutsuccess'])&& $_GET['logoutsuccess'] == "true" ) {
+  echo "<div class='alert alert-success alert-dismissible fade show my-0' role='alert'>
+  <strong>Success!</strong> You are logged out, we hope that you find iDiscuss useful.
+  <button type='button' class='close' data-dismiss='alert' aria-label='Close'></button>
+  <span aria-hidden='true'>&times</span>
+</div>";
 }
 
 

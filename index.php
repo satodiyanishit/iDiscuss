@@ -15,7 +15,7 @@
 
     .carousel-inner>.carousel-item>img {
         width: 1000px;
-        height: 500px;
+        height: 600px;
     }
 
 
@@ -55,31 +55,31 @@
     <?php include 'partials/_dbconnect.php'; ?> 
 
     <!-- Slider starts -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-  <div class="carousel-indicators">
-    <span type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"><span></span></span>
-    <span type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"><span></span></span>
-    <span type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"><span></span></span>
-  </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/html.jpg" class="d-block w-100" alt="...">
+      <img class="d-block w-100" src="img/html.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img src="img/php.png" class="d-block w-100" alt="...">
+      <img class="d-block w-100" src="img/php.png" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img src="img/python.png" class="d-block w-100" alt="...">
+      <img class="d-block w-100" src="img/python.png" alt="Third slide">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
     <!-- category container starts here -->

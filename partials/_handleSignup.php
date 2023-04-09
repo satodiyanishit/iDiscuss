@@ -79,6 +79,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             
         }
     }
-    header("Location: /forum/index.php?signupsuccess=false&error=$showError");
+    header("Location: /forum/index.php?signupsuccess=true&error=$showError");
 }
 ?>
