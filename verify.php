@@ -27,6 +27,7 @@ if(isset($_GET['email']) && isset($_GET['v_code']))
                 window.location.href='index.php';
                 </script>";
             }
+            
         }
     }
 }
