@@ -2,6 +2,7 @@
 
 include 'partials/_dbconnect.php';
 
+//email verification
 if(isset($_GET['email']) && isset($_GET['v_code']))
 {
     $query = "SELECT * from `users` WHERE `user_email` = '$_GET[email]' AND `verification_code` = '$_GET[v_code]'";
