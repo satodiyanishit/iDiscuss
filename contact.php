@@ -15,7 +15,7 @@
   <body>
     <?php include 'partials/_header.php'; ?> 
     
-
+    <p>This is footer</p>
 
     <?php include 'partials/_footer.php'; ?> 
 
