@@ -18,7 +18,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 $_SESSION['useremail'] = $email;
                 // echo "loggedin" . $email;
                 header("Location: /forum/index.php?loginsuccess=true");
-            }else{
+            }else{  
                 $showError = "Password do not matched";
             }  
             // header("Location: /forum/index.php?loginsuccess=false&error=$showError");
