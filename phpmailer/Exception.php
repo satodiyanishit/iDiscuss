@@ -26,6 +26,7 @@ namespace PHPMailer\PHPMailer;
  *
  * @author Marcus Bointon <phpmailer@synchromedia.co.uk>
  */
+//exception handling
 class Exception extends \Exception
 {
     /**
