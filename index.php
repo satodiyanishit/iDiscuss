@@ -88,6 +88,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+    <!-- carousel ends here -->
     <!-- category container starts here -->
     <div class="container my-4" id="ques">
         <h2 class="text-center my-3">iDiscuss - Browse Categories</h1>

@@ -42,9 +42,6 @@ function sendmail($user_email,$comment_by){
 }
 ?>
 
-
-
-
 <!doctype html>
 <html lang="en">
   <head>
