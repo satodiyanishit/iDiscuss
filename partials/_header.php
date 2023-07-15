@@ -50,7 +50,7 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
          </div>
          </nav>';
 
-
+//included files
 include 'partials/_loginModal.php';
 include 'partials/_signupModal.php';
 
@@ -101,6 +101,4 @@ if (isset($_GET['logoutsuccess'])&& $_GET['logoutsuccess'] == "true" ) {
   <span aria-hidden='true'>&times</span>
 </div>";
 }
-
-
 ?>
