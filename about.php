@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -18,8 +16,6 @@
     <p>Hello this is an about page of idiscuss</p>
 
     <?php include 'partials/_footer.php'; ?> 
-
-    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

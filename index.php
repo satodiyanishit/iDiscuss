@@ -88,6 +88,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+
     <!-- carousel ends here -->
     <!-- category container starts here -->
     <div class="container my-4" id="ques">
@@ -121,10 +122,7 @@
         </div>
     </div>
 
-
     <?php include 'partials/_footer.php'; ?> 
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -171,7 +169,5 @@
         }, 50);
     }
     </script>
-
-    
 </body>
 </html>
