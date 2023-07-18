@@ -55,7 +55,6 @@
 
     ?>
 
-
     <div class="container">
         <div class="my-5">
             <h1 class="display-4">Welcome to <?php echo $catname; ?> forums</h1>
@@ -103,8 +102,6 @@
 
     ?>
 
-    
-
     <div class="container">
         <h1 class="py-2 mt-5">Browse Questions</h1>
         <?php
@@ -123,8 +120,6 @@
             $result2 = mysqli_query($conn, $sql2);
             $row2 = mysqli_fetch_assoc($result2);
             
-            
-
         echo '<div class="media my-4">
             <img src="img/userdefault.png" class="mr-3" alt="..." width="50px">
             <div class="media-body">
@@ -146,7 +141,7 @@
                 </div> ';
         }
         ?>
-        
+
     </div>
 
     <?php include 'partials/_footer.php'; ?> 
