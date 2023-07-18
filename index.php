@@ -18,8 +18,6 @@
         height: 600px;
     }
 
-
-        
     .card {
     border-radius: 9px;
     /* background: #3c3c3c; */
@@ -36,7 +34,6 @@
         min-height: 400px;
     }
 
-
     .card:hover {
         transform: scale(1.1);
         /* box-shadow: 0 20px 20px rgba(1, 1, 1, .12), 0 4px 8px rgba(0, 0, 0, .06); */
@@ -47,8 +44,6 @@
     }
     
     </style>
-
-    
   </head>
   <body>
     <?php include 'partials/_header.php'; ?> 
